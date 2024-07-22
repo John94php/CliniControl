@@ -1,0 +1,11 @@
+{% extends "layouts/_auth.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-5">
+<p>Witaj {{ user.first_name }} {{ user.last_name }}</p>
+<p>Ostatnie logowanie: {{ user.last_login }}</p>
+{% include 'home/appointments.html' %}
+{% include 'home/operations.html' %}
+</div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'layouts/_base.html' %}
+
+{% block title %}Strona Główna{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+    {% include 'logo/logo_white.html' %}
+<h1>Witamy na naszej stronie!</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title text-center">CliniControl</h1>
+                        <h2 class="card-subtitle mb-4 text-center">Twoje Zdrowie pod Kontrolą</h2>
+                        <p class="card-text">
+                            <strong>CliniControl</strong> to innowacyjna aplikacja stworzona z myślą o pacjentach, aby ułatwić i usprawnić zarządzanie zdrowiem. Dzięki CliniControl możesz łatwo umawiać wizyty, śledzić harmonogramy zabiegów oraz szybko i wygodnie zamawiać leki w aptece.
+                        </p>
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item"><strong>Prosta Rezerwacja Wizyt:</strong> Umawiaj się na wizyty lekarskie w dogodnym dla Ciebie terminie, bez długich kolejek i telefonów.</li>
+                            <li class="list-group-item"><strong>Monitorowanie Zabiegów:</strong> Miej pełną kontrolę nad harmonogramem swoich zabiegów, otrzymuj przypomnienia i ważne informacje.</li>
+                            <li class="list-group-item"><strong>Szybkie Zamawianie Leków:</strong> Zamawiaj leki online i odbieraj je w najbliższej aptece lub zamów dostawę do domu.</li>
+                        </ul>
+                        <p class="card-text">
+                            <strong>CliniControl</strong> to Twój osobisty asystent zdrowia, który sprawi, że zarządzanie wizytami, zabiegami i lekami stanie się proste i bezstresowe. Zdrowie pod kontrolą, na wyciągnięcie ręki!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+{% endblock %}
